@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="ProgressView" customModule="Questionarie" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="366" height="28"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="jdF-8h-SWy">
+                    <rect key="frame" x="30" y="13" width="306" height="2"/>
+                </progressView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nt0-qu-cUK">
+                    <rect key="frame" x="7" y="3" width="8" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g22-Vv-nck">
+                    <rect key="frame" x="351" y="3" width="8" height="22"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Nt0-qu-cUK" secondAttribute="bottom" constant="3" id="2HY-a0-sVF"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="g22-Vv-nck" secondAttribute="bottom" constant="3" id="8GA-bx-uZO"/>
+                <constraint firstItem="jdF-8h-SWy" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="BQs-wk-UXr"/>
+                <constraint firstItem="jdF-8h-SWy" firstAttribute="leading" secondItem="Nt0-qu-cUK" secondAttribute="trailing" constant="15" id="OSj-bi-J48"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="g22-Vv-nck" secondAttribute="trailing" constant="7" id="TGM-vN-tAd"/>
+                <constraint firstItem="g22-Vv-nck" firstAttribute="leading" secondItem="jdF-8h-SWy" secondAttribute="trailing" constant="15" id="lGe-N9-0zv"/>
+                <constraint firstItem="Nt0-qu-cUK" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="7" id="pB6-rm-Dnv"/>
+                <constraint firstItem="g22-Vv-nck" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="3" id="pVn-oQ-ZEY"/>
+                <constraint firstItem="Nt0-qu-cUK" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="3" id="pgh-MC-KpS"/>
+                <constraint firstItem="jdF-8h-SWy" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yE1-wI-kUf"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="leftL" destination="Nt0-qu-cUK" id="O0d-7t-zQM"/>
+                <outlet property="progressV" destination="jdF-8h-SWy" id="e0q-ib-W56"/>
+                <outlet property="rightL" destination="g22-Vv-nck" id="yrG-Mq-FFG"/>
+            </connections>
+            <point key="canvasLocation" x="38" y="-243"/>
+        </view>
+    </objects>
+</document>
