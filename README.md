@@ -10,4 +10,10 @@ The json file descripes the informations of all questions, such as which ViewCon
 2.Send answers to the backend
 The plan generating functions are run in the backend. The app is responsible for rendering the json file to different AnswerControllers. 
 
+## UI
+
+
+## Apology
+Because I have a deadline to meet for my current job, I only finish part of the app. I feel really sorry about it.
+
  
