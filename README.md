@@ -11,8 +11,10 @@ The json file descripes the informations of all questions, such as which ViewCon
 The plan generating functions are run in the backend. The app is responsible for rendering the json file to different AnswerControllers. 
 
 ## UI
-<img src="https://github.com/CranberryYam/nbcu-mobile-challenge/blob/master/Assets/IMG_04042.PNG" width="280">
-<img src="https://github.com/CranberryYam/nbcu-mobile-challenge/blob/master/Assets/IMG_04052.PNG" width="280">
+<p align="center">
+  <img src="https://github.com/CranberryYam/nbcu-mobile-challenge/blob/master/Assets/IMG_04042.png" width="280">       
+  <img src="https://github.com/CranberryYam/nbcu-mobile-challenge/blob/master/Assets/IMG_04052.png" width="280">
+</p>
 
 ## Apology
 Because I have a deadline to meet for my current job, I only finish part of the app. I feel really sorry about it.
