@@ -115,7 +115,7 @@ class Utility{
                     while d > 0 && decrementMatch == false{
                         if planArr.contains(d){
                             decrementMatch = true
-                            dict[DEC] = [DECREMENTS:decrements, DATA_PLAN:d, DATA_USAGE:dataUsage]
+                            dict[DEC] = [DECREMENTS:decrements, DATA_PLAN:d]
                         }
                         d-=1
                         decrements+=1}
@@ -125,12 +125,12 @@ class Utility{
         else if planArr.contains(dataUsage) && dataUsage < 9 {
             for (_, plan) in planArr.enumerated(){
                 if plan == dataUsage{
-                    dict[QUO] = [DATA_PLAN:plan, DATA_USAGE:dataUsage]
+                    dict[QUO] = [DATA_PLAN:plan]
                 }
             }
         }
         else if dataUsage > 8 {
-            dict[MAX] = [DATA_PLAN: 9, DATA_USAGE:dataUsage]
+            dict[MAX] = [DATA_PLAN:9, DATA_USAGE:dataUsage]
             
         }
         return dict
