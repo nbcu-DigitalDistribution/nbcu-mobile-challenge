@@ -87,10 +87,6 @@ class ViewController: UIViewController {
         let dataCharges = Utility.getPlanandPrice(dict: deviceDataDict)
         let hourlyCharges = Utility.getPlanandPrice(dict: hourlyDataDict)
         
-        print("bonusData Usage: \(additionalDataUsage)gb")
-        print("dataCharges: $\(dataCharges.price) plan: \(String(describing: dataCharges.str))")
-        print("hourlyCharges: $\(hourlyCharges.price) plan: \(String(describing: hourlyCharges.str))")
-        
         let totalChargesDict: [String:Any] = [Utility.DATA_CHARGES: dataCharges,
                                               Utility.HOURLY_CHARGES: hourlyCharges,
                                               Utility.PHONE_CHARGES: sumPhoneCharges()]

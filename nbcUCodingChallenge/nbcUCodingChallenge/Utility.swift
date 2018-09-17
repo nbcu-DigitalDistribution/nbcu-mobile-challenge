@@ -99,7 +99,7 @@ class Utility{
             metaArr = metaArr.sorted()
             for (idx,plan) in metaArr.enumerated(){
                 if plan == dataUsage{
-                    //finds the passed in dataUsage its closest matching plan.
+                    //finds the passed in dataUsage and its closest matching plan.
                     var i = metaArr[idx]; var d = metaArr[idx]
                     var increments = 0; var decrements = 0
                     var incrementMatch = false; var decrementMatch = false

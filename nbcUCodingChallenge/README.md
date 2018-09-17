@@ -26,4 +26,6 @@ Separately, the landline charges are calcuated depending on the state of the swi
 Finally, the landline charges; the hourly data usage cost; and the additional data usage and devices charges gets parsed to yield the total cost and plan recommendations.
 
 ---
-With more time to continue the development of this app I would add some animations to the images; make some additional refinements to enhance the UX; and perhaps some better handling of edges cases currently present
+With more time to continue the development of this app I would add some animations to the images; make some additional refinements to enhance the UX; and perhaps some better handling of edges cases currently present.
+
+I'd also search for a solution to the benign "can't find keyplane" issue that seems to be a Xcode bug.

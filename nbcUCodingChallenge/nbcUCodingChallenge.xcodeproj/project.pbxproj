@@ -89,11 +89,11 @@
 			children = (
 				1F68D012214AD50E00101692 /* AppDelegate.swift */,
 				1F68D014214AD50E00101692 /* ViewController.swift */,
-				1F68D016214AD50E00101692 /* Main.storyboard */,
 				1F68D038214C385300101692 /* PricePlanViewController.swift */,
-				1F68D034214BF8F100101692 /* Utility.swift */,
 				1F68D032214B38D000101692 /* Package.swift */,
 				1F68D036214C19DF00101692 /* PricePlan.swift */,
+				1F68D016214AD50E00101692 /* Main.storyboard */,
+				1F68D034214BF8F100101692 /* Utility.swift */,
 				1F68D019214AD51200101692 /* Assets.xcassets */,
 				1F68D01B214AD51200101692 /* LaunchScreen.storyboard */,
 				1F68D01E214AD51200101692 /* Info.plist */,
@@ -379,6 +379,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAR3GA7FS8;
 				INFOPLIST_FILE = nbcUCodingChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -397,6 +398,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YAR3GA7FS8;
 				INFOPLIST_FILE = nbcUCodingChallenge/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

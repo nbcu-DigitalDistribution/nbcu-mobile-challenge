@@ -14,7 +14,6 @@
         <!--Coding Project-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="nbcUCodingChallenge" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="949"/>
@@ -271,8 +270,9 @@
                         <segue destination="wHy-KH-jge" kind="show" identifier="toPricePlan" id="Liq-3p-by0"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-900" y="100"/>
+            <point key="canvasLocation" x="-908" y="99"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="W2F-vQ-SQT">
@@ -394,31 +394,28 @@
                                             <constraint firstItem="1ZZ-P9-Hbh" firstAttribute="top" secondItem="VAV-Vq-x4o" secondAttribute="bottom" constant="8" id="2s6-uA-R2p"/>
                                             <constraint firstItem="2da-FW-Y2w" firstAttribute="top" secondItem="SN6-i4-oa1" secondAttribute="top" constant="8" id="3rv-TR-C8m"/>
                                             <constraint firstItem="2da-FW-Y2w" firstAttribute="width" secondItem="2da-FW-Y2w" secondAttribute="height" multiplier="40:11" id="4gC-WC-vLK"/>
-                                            <constraint firstItem="ago-aa-r3Z" firstAttribute="leading" secondItem="CMY-HB-AVR" secondAttribute="leading" id="5xZ-Vw-Ubh"/>
-                                            <constraint firstItem="CMY-HB-AVR" firstAttribute="leading" secondItem="Gmf-8X-Krv" secondAttribute="leading" id="5yy-OI-SPd"/>
                                             <constraint firstItem="Gmf-8X-Krv" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ro2-4w-XFC" secondAttribute="trailing" constant="8" id="70u-qw-vWl"/>
                                             <constraint firstItem="hBp-vg-LkN" firstAttribute="leading" secondItem="SN6-i4-oa1" secondAttribute="leading" constant="8" id="7uV-Gw-jGS"/>
                                             <constraint firstItem="etG-zE-vIk" firstAttribute="top" secondItem="2da-FW-Y2w" secondAttribute="bottom" constant="22" id="ArD-gX-K9i"/>
                                             <constraint firstItem="o92-kR-g6C" firstAttribute="leading" secondItem="SN6-i4-oa1" secondAttribute="leading" constant="8" id="AtF-cy-eUP"/>
                                             <constraint firstItem="Aky-6A-8Ij" firstAttribute="centerY" secondItem="VAV-Vq-x4o" secondAttribute="centerY" id="Bko-4M-pX4"/>
                                             <constraint firstItem="CMY-HB-AVR" firstAttribute="top" secondItem="KCC-yI-f7M" secondAttribute="bottom" constant="50" id="CUg-rr-gPB"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="ago-aa-r3Z" secondAttribute="trailing" constant="8" id="CxJ-rt-5HB"/>
+                                            <constraint firstAttribute="trailing" secondItem="ago-aa-r3Z" secondAttribute="trailing" constant="8" id="CxJ-rt-5HB"/>
                                             <constraint firstItem="ro2-4w-XFC" firstAttribute="centerY" secondItem="Gmf-8X-Krv" secondAttribute="centerY" id="D1Y-vd-Weh"/>
                                             <constraint firstItem="ago-aa-r3Z" firstAttribute="centerY" secondItem="dQm-bK-62i" secondAttribute="centerY" id="D7c-fS-9a7"/>
                                             <constraint firstItem="KCC-yI-f7M" firstAttribute="top" secondItem="xff-CR-YMb" secondAttribute="bottom" constant="4" id="GK9-MR-lxQ"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xff-CR-YMb" secondAttribute="trailing" constant="8" id="GqA-Rj-Osq"/>
                                             <constraint firstItem="VAV-Vq-x4o" firstAttribute="leading" secondItem="SN6-i4-oa1" secondAttribute="leading" constant="8" id="HwL-Fv-9kv"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Gmf-8X-Krv" secondAttribute="trailing" constant="8" id="Inj-Qf-5Iz"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gmf-8X-Krv" secondAttribute="trailing" constant="8" id="Inj-Qf-5Iz"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="1ZZ-P9-Hbh" secondAttribute="trailing" constant="8" id="K3i-H8-cA9"/>
                                             <constraint firstItem="Aky-6A-8Ij" firstAttribute="top" secondItem="etG-zE-vIk" secondAttribute="bottom" constant="37.5" id="Kej-ez-hvt"/>
                                             <constraint firstItem="etG-zE-vIk" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="SN6-i4-oa1" secondAttribute="leading" constant="8" id="L60-ZN-9Tt"/>
                                             <constraint firstItem="KCC-yI-f7M" firstAttribute="leading" secondItem="SN6-i4-oa1" secondAttribute="leading" constant="8" id="Opn-Wl-2yz"/>
-                                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="CMY-HB-AVR" secondAttribute="trailing" constant="8" id="Pa7-6P-drk"/>
+                                            <constraint firstAttribute="trailing" secondItem="CMY-HB-AVR" secondAttribute="trailing" constant="8" id="Pa7-6P-drk"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="2da-FW-Y2w" secondAttribute="trailing" id="QdO-QL-enp"/>
                                             <constraint firstItem="hBp-vg-LkN" firstAttribute="top" secondItem="1ZZ-P9-Hbh" secondAttribute="bottom" constant="4" id="Rbo-ui-Mfg"/>
                                             <constraint firstItem="VAV-Vq-x4o" firstAttribute="top" secondItem="etG-zE-vIk" secondAttribute="bottom" constant="37.5" id="SUc-Je-aLD"/>
                                             <constraint firstItem="ro2-4w-XFC" firstAttribute="top" secondItem="hBp-vg-LkN" secondAttribute="bottom" constant="50" id="Vfu-ax-Ags"/>
-                                            <constraint firstItem="Gmf-8X-Krv" firstAttribute="leading" secondItem="Aky-6A-8Ij" secondAttribute="leading" id="VgN-c0-52t"/>
                                             <constraint firstItem="xff-CR-YMb" firstAttribute="leading" secondItem="SN6-i4-oa1" secondAttribute="leading" constant="8" id="WBK-kr-qJ2"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="hBp-vg-LkN" secondAttribute="trailing" id="X9D-Of-H1p"/>
                                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="KCC-yI-f7M" secondAttribute="trailing" id="XfP-Ok-O9r"/>
@@ -470,7 +467,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ccI-hl-cgi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-143" y="118"/>
+            <point key="canvasLocation" x="-124" y="98"/>
         </scene>
     </scenes>
     <resources>

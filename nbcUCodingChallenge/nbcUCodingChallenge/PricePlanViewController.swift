@@ -23,9 +23,6 @@ class PricePlanViewController: UIViewController {
     //MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        print(dataDict!)
-        print(getTotalCost())
         
        setLabelText()
      }
@@ -41,7 +38,7 @@ class PricePlanViewController: UIViewController {
         return planStr
     }
     
-    func getHourlyPackage()->String{
+    func getHourlyPlan()->String{
         var planStr = "n/a"
         guard let dict = dataDict else {return planStr}
         
@@ -73,7 +70,7 @@ class PricePlanViewController: UIViewController {
     }
     
     
-    func getHourlyPackageCost()->Double{
+    func getHourlyPlanCost()->Double{
         var cost = 0.00
         guard let dict = dataDict else {return cost}
         
@@ -102,8 +99,8 @@ class PricePlanViewController: UIViewController {
     
     //MARK: Helper
     func setLabelText(){
-        hourlyStreamingCostLabel.text = "\(Utility.getCurrencyValue(for: getHourlyPackageCost()))"
-        hourlyStreamingPlanLabel.text = "\(getHourlyPackage())"
+        hourlyStreamingCostLabel.text = "\(Utility.getCurrencyValue(for: getHourlyPlanCost()))"
+        hourlyStreamingPlanLabel.text = "\(getHourlyPlan())"
         additionalDevicesCostLabel.text = "\(Utility.getCurrencyValue(for: getAdditionalDevicesDataPlanCost()))"
         additionalDevicesPlanLabel.text = "\(getAdditionalDevicesDataPlan())"
         LandLineChargesLabel.text = "\(Utility.getCurrencyValue(for: getLandLineCharges()))"
