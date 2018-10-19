@@ -1,13 +1,14 @@
-# Mobile Code Challenge
+# Coding Challenge
 
 ## Objective 
 
-We want to build an app that let’s users find the best Cable, Internet and Phone package recommendation and cost of the package based on their requirements/selections. Note that the pricing and recommendations here are purely fictitious (and don't really make sense) and are only being used to test your coding skills.
+We want to build an application that let’s users find the best Cable, Internet and Phone package recommendation and cost of the package based on their requirements/selections. Note that the pricing and recommendations here are purely fictitious (and don't really make sense) and are only being used to test your coding skills.
 
 ## Questions for the User
 
 - How many hours do they watch in a week on Netflix/Amazon/Hulu/Etc.?
-- How many devices they typically have at home that they want to watch videos simultaneously?
+- How many devices they typically have at home?
+- How many devices they want to watch videos on simultaneously?
 - Do you like to have a phone service at home?
 - Do you like to make international calls using your home phone?
   - User should be allowed to select any of the following options unless otherwise noted:
@@ -50,7 +51,10 @@ Please keep in mind that these are baseline requirements. If you find that you h
 
 **Language**: 
 
-We use Swift day-to-day and would love to see you write your project in Swift as well
+We'd like you to use the most up to date/modern language for your respective platform that you're most comfortable with. There are some platforms where we'd like to see specific languages, though. These are:
+
+- iOS: Swift
+- Android: Kotlin
 
 **App**:
 
@@ -62,10 +66,14 @@ We use Swift day-to-day and would love to see you write your project in Swift as
 
 Feel free to use any dependency manager you're most comfortable with if necessary.
 
-Please include a README with your project that provides instructions on how to run your app, a brief explanation of any dependencies you decided to utilize and why, and any other notes you feel are important (e.g. architctural decisions, shortcomings, things you didn't get to complete, things you think you could improve on, etc.).
+Please include a README with your project that provides instructions on how to run your project, a brief explanation of any dependencies you decided to utilize and why, and any other notes you feel are important (e.g. architctural decisions, shortcomings, things you didn't get to complete, things you think you could improve on, etc.).
 
 **We are looking for**:
 
 - Ability to write working, readable and testable code
 - Knowledge of the platform/language patterns and idioms + the ability to use them efficiently
 - Tests to accompany your code
+
+**Submission**
+
+Upon completion of your project, please send us a GitHub link so we can clone and review your project.
