@@ -1,6 +1,6 @@
 # Coding Challenge
 
-## Objective 
+## Objective
 
 We want to build an application that let’s users find the best Cable, Internet and Phone package recommendation and cost of the package based on their requirements/selections. Note that the pricing and recommendations here are purely fictitious (and don't really make sense) and are only being used to test your coding skills.
 
@@ -36,25 +36,31 @@ NOTE: Assume the user only enters valid inputs for questions without predefined 
   - A flat rate of $11.99 for the World plan
   - A flat rate of $4.99 for Asia, Europe or Rest of the World respectively
 
+**NOTE**: You do _not_ need to recommend the World Plan if they choose Asia, Europe and Rest of the World.
+
 **Additional Device Recommendations**: (Anything above 2 devices are considered additional)
 
 - For every additional device, a 1 GB additional data should be recommended.
 - For watching videos simultaneously on these devices, an additional 1 GB should be recommended per device. The cost for additional data from these additional devices should be based on the table above and if there is no direct mapping to additional data to cost then choose the closest applicable cost.
 
-**Additional Device Example**: 
+**Device Examples**:
 
-Say you have 3 additional devices (so a total off 5 devices at home) and you want the ability to watch the videos simultaneously on 2 devices. The recommendations should be 5GB (3 GB for 3 additional devices + 2 GB for simultaneous play on 2 devices).  The cost for additional 5GB is $8 as per the table above.
+1. Say you have 2 devices and you want to watch video simultaneously on 2 devices for 4 hours. The recommendation should be 5 GB which comes out to $8 as per the table above.
+
+2. Say you have 3 additional devices (so a total of 5 devices at home) and you want the ability to watch videos simultaneously on 3 devices for 4 hours. The recommendation should be: **5 GB** (2 devices at 4 hours of streaming) + **3 GB** (3 *additional* devices) + **1 GB** (Streaming on 1 *additional* device). The cost for additional 9GB is $15.50 as per the table above.
 
 ## Project Requirements
 
 Please keep in mind that these are baseline requirements. If you find that you have extra time and want to add a little more pizzazz feel free to do so.
 
-**Language**: 
+**Language**:
 
 We'd like you to use the most up to date/modern language for your respective platform that you're most comfortable with. There are some platforms where we'd like to see specific languages, though. These are:
 
 - iOS: Swift
 - Android: Kotlin
+
+Otherwise, feel free to use whatever platform you're most comfortable with.
 
 **App**:
 
@@ -66,7 +72,7 @@ We'd like you to use the most up to date/modern language for your respective pla
 
 Feel free to use any dependency manager you're most comfortable with if necessary.
 
-Please include a README with your project that provides instructions on how to run your project, a brief explanation of any dependencies you decided to utilize and why, and any other notes you feel are important (e.g. architctural decisions, shortcomings, things you didn't get to complete, things you think you could improve on, etc.).
+Please include a README with your project that provides instructions on how to run your project, a brief explanation of any dependencies you decided to utilize and why, and any other notes you feel are important (e.g. architectural decisions, shortcomings, things you didn't get to complete, things you think you could improve on, etc.).
 
 **We are looking for**:
 
